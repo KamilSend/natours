@@ -8,6 +8,10 @@
   opacity:0.15;
   overflow: hidden;
 
+  @include respond(phone){
+    display:none;
+  }
+
   &video__content{
     height:100%;
     width:100%;
